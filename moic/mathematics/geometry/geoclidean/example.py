@@ -1,4 +1,4 @@
-from aluneth.mathematics.geometry.geoclidean.euclidean_primitives import *
+from .euclidean_primitives import *
 
 img_path = "/Users/melkor/miniforge3/envs/Melkor/lib/python3.9/site-packages/aluneth/mathematics/geometry/geoclidean/images"
 

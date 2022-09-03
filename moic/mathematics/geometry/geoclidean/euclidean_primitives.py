@@ -1,5 +1,5 @@
-from aluneth.mathematics.geometry.geoclidean.render import *
-from aluneth.mathematics.geometry.geoclidean.utils import *
+from .render import *
+from .utils import *
 import random
 import os
 import re
