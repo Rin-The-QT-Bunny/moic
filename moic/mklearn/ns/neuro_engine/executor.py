@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
-from aluneth.data_structure import *
-from aluneth.utils import *
+from moic.data_structure import *
+from moic.utils import *
 class Executor(nn.Module):
     def __init__(self,concepts):
         super().__init__()
