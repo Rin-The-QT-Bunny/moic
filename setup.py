@@ -14,6 +14,6 @@ setup(
     packages=find_packages(),
     package_data={
         '':['moic','moic/mklearn'],
-        'bandwidth_reporter':['moic']
+        'bandwidth_reporter':['moic','moic/mklearn']
                },
 )
