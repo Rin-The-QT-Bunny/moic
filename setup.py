@@ -13,7 +13,9 @@ setup(
     # the package that are prerequisites
     packages=find_packages(),
     package_data={
-        '':['moic','moic/mklearn'],
-        'bandwidth_reporter':['moic','moic/mklearn']
+        '':['moic',
+        'moic/mklearn',
+        'moic/learn/nn'],
+        'bandwidth_reporter':['moic','moic/mklearn','moic/learn/nn']
                },
 )
