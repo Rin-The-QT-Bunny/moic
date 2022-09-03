@@ -16,6 +16,7 @@ setup(
         '':['moic',
         'moic/mklearn',
         'moic/learn/nn'],
+        'moic': ['mklearn'],
         'bandwidth_reporter':['moic','moic/mklearn','moic/learn/nn']
                },
     include_package_data = True
