@@ -1,2 +1,1 @@
-print("namo")
-from .nn import *
+from . import *
