@@ -1,5 +1,5 @@
 import torch
 import torch.nn as nn
 
-import mklearn
+from . import *
 print("Melkor of Iron Crown is activated")
