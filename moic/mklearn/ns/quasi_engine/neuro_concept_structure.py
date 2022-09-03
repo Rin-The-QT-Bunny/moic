@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 
-from aluneth.rinlearn.ns.quasi_engine.neuro_types import *
+from .neuro_types import *
 # A concept structure is convieved as the way how concepts/relations interacts with object/objects
 # and produce the probabilitic outcomes. Basically a concept structure is a set of functions that 
 # contains the way to calculate the following things:

@@ -4,7 +4,7 @@ import torch.nn as nn
 
 import numpy as np
 
-from aluneth.utils import *
+from moic.utils import *
 
 class Rint(nn.Module):
     def __init__(self,value):
