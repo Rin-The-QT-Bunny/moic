@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
-from aluneth.rinlearn.nn.functional_net import *
-from aluneth.data_structure import FuncNode
+from moic.mklearn.nn.functional_net import *
+from moic.data_structure import FuncNode
 import numpy as np
 
 class NeuroDecoder(nn.Module):

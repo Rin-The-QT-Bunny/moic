@@ -1,8 +1,8 @@
-from aluneth.rinlearn.ns.neuro_engine.concept_structure import *
-from aluneth.rinlearn.ns.neuro_engine.primitives import *
-from aluneth.rinlearn.ns.neuro_engine.executor import *
-from aluneth.data_structure import *
-from aluneth.utils import *
+from .concept_structure import *
+from .primitives import *
+from .executor import *
+from moic.data_structure import *
+from moic.utils import *
 from matplotlib.colors import rgb2hex
 
 # implementations of DSL operators
