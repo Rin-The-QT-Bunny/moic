@@ -1,3 +1,4 @@
-from aluneth.rinlearn.ns.neuro_engine.concept_structure import *
-from aluneth.rinlearn.ns.neuro_engine.primitives import *
-from aluneth.rinlearn.ns.neuro_engine.executor import *
+from .concept_structure import *
+from .primitives import *
+from .executor import *
+from . import *
