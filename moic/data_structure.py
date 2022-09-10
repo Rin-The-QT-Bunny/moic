@@ -11,15 +11,24 @@ class Stack(object):
     def __ne__(self,o): return not self == o
 
 class Queue(object):
-    def __init__(self,front = 0,rear = -1,values = []):
+    def __init__(self,front = 1,rear = 0,values = []):
         self.front = front
-        self.rear = -1
-        self.values = []
+        self.rear = rear
+        self.values = [-1] * 99999
     def __str__(self): return "Queue:\n (front = %d,rear = %d)" %(self.front,self.rear)
 
     def __eq__(self,o): return  isinstance(o,Queue) and self.front == o.front and self.rear == o.rear and self.values == o.values
 
     def __ne__(self,o): return not self == o
+
+    def put(self,x):
+        self.rear += 1
+        self.values[self.rear] = x
+    
+    def pop(self):
+        value = self.values[self.front]
+        self.front += 1
+        return value
 
 class ChainNode(object):
     def __init__(self,value = None,prev = None,next = None):
