@@ -30,6 +30,8 @@ class Queue(object):
         self.front += 1
         return value
 
+    def top(self):return self.values[self.front]
+
 class ChainNode(object):
     def __init__(self,value = None,prev = None,next = None):
         self.prev = prev
