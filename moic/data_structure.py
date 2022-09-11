@@ -56,6 +56,7 @@ class ChainNode(object):
 
     def attach_to(self,next): self.next = next;next.prev = self
 
+
 import networkx as nx
 import numpy as np
 
@@ -116,6 +117,8 @@ class Treap(object):
     def __eq__(self,o):return o==self
 
     def __ne__(self,o):return not o==self
+
+    def get_father(self,i):return i/2
 
 class FuncNode:
     def __init__(self,token):
