@@ -109,7 +109,7 @@ class EncoderNet(nn.Module):
 
     def forward(self, x):
         x = self.convs(x)
-        x = x.view(x.shape[0], -1)
+        x = x.reshape(x.shape[0], -1)
 
         x = self.mlp(x)
         return x
@@ -200,7 +200,7 @@ class ResNet34(nn.Module):
         x = self.layer4(x)
 
         x = F.avg_pool2d(x,7)
-        x = x.view(x.size(0),-1)
+        x = x.reshape(x.size(0),-1)
         return self.fc(x)
 
 class DETR(nn.Module):
